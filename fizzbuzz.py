@@ -54,11 +54,11 @@ while n <= numbers:
     x = n%multfizz
     y = n%multbuzz
     if x and y == 0:
-        print ("fizzbuzz")
+        print ("FizzBuzz")
     elif x == 0:
-        print ("fizz")
+        print ("Fizz")
     elif y == 0:
-        print ("buzz")
+        print ("Buzz")
     else:
         print (n)
     n = n + 1
