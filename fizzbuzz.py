@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Carlton
+Credit: My teacher, Walt
 
 Assignment:
 
@@ -53,7 +53,7 @@ n = 1
 while n <= numbers:
     x = n%multfizz
     y = n%multbuzz
-    if x and y == 0:
+    if x == 0 and y == 0:
         print ("FizzBuzz")
     elif x == 0:
         print ("Fizz")
